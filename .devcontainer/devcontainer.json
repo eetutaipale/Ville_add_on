@@ -1,0 +1,9 @@
+{
+    "name": "VS Code Extension - Villeplug",
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "code --install-extension /workspace/villeplug-0.0.1.vsix"
+  }
