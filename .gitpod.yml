@@ -1,0 +1,9 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: |
+      # Install the VSIX extension
+      code --install-extension /workspace/villeplug-0.0.1.vsix
+  - command: |
+      # Launch VS Code (this will open the VS Code environment)
+      code .
