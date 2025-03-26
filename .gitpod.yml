@@ -6,6 +6,3 @@ tasks:
   - init: |
       # Install the VSIX extension from the root directory
       code --install-extension ./villeplug-0.0.1.vsix
-  - command: |
-      # Launch VS Code (this will open the VS Code environment in the Gitpod workspace)
-      code .
