@@ -1,6 +1,6 @@
 image: gitpod/workspace-full
 
-image: gitpod/workspace-full  # Your chosen image
+
 
 tasks:
   - init: |
